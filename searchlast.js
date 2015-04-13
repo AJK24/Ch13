@@ -25,16 +25,6 @@ function dispArr(arr) {
 
 
 
-function seqSearch(arr, data) {
-	   for (var i = 0; i < arr.length; ++i) {
-		      if (arr[i] == data) {
-			         return true;
-				    }
-		         }
-	      return false;
-}
-
-
 var nums = [];
    for (var i = 0; i < 100; ++i) {
 	      nums[i] = Math.floor(Math.random() * 101);
@@ -57,7 +47,7 @@ dispArr(nums);
       dispArr(nums);
 
 
-function seqSearch(arr, data) {
+/*function seqSearch(arr, data) {
 		   for (var i = 0; i < arr.length; ++i) {
 			      if (arr[i] == data) {
 				         return i;
@@ -65,7 +55,7 @@ function seqSearch(arr, data) {
 			         }
 		      return -1;
 }
-
+*/
 
 
 function swap(arr, index, index1) {
