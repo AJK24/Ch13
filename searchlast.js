@@ -86,16 +86,16 @@ function seqSearch(arr, data) {
 
 			temp = arr[i];
 
-			if(arr[i] < arr.length){
-				continue; 
+		//	if(arr[i] < arr.length){
+		//		continue; 
 
-			}
+		//	}
 
 
 
-			swap(arr,i,0);
+	//		swap(arr,i,0);
 
-			return true;
+	///		return true;
 
 		}
 
@@ -104,6 +104,9 @@ function seqSearch(arr, data) {
 			return true;
 
 		}
+	swap(arr,temp,0);
+	return true;
+
 
 	}
 
