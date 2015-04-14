@@ -4,4 +4,4 @@ Searching.js holds all the functions
 Everything else is run with d8
 
 
-used seqlast.js and searchlast.js to answer number1 in chapter 13
+d8 lasttest.js and  it uses searchlast.js to answer number1 in chapter 13
