@@ -13,4 +13,4 @@ function seqSearch(arr, data) {
 }
 
 //display the array.
-dispArr(arr);
+//dispArr(arr);
